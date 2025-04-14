@@ -1,0 +1,21 @@
+/* Reset margin và padding để giao diện đồng nhất */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Thiết lập font chữ và background */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Căn giữa nội dung */
+  #root {
+    display: flex;
+    justify-content: center;
+  }
+  
